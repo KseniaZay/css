@@ -1,0 +1,9 @@
+[href*="http"] {
+    color: red;
+}
+p:first-of-type {
+    font-size: 26px;
+}
+.list>li+li>a[href="#"]{
+    background-color: green;
+}
